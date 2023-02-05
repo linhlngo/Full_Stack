@@ -1,9 +1,10 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYzYmJlN2QzZjkwZGRhNjMwMzVlODI2YSIsImlhdCI6MTY3MzI1OTM0NH0.TSddJ8SDL5ipeg7YtV8HV5DFfRmfNzzDp84u2U0Xh4A
 
 {
-  "title": "Harry Potter version 2",
+  "title": "Harry Potter - part1 - root",
   "author": "J.K.Rowling",
-  "url": "www",
+  "url": "www.harrypoter.com",
   "likes": 12
 }
